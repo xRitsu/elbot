@@ -2,8 +2,11 @@
   "name": "greeter-bot",
   "version": "1.0.0",
   "description": "My own Discord bot",
-  "main": "bot.js",
+  "main": "index.js",
   "author": "Ritsu",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
     "discord.js": "^11.5.1",
